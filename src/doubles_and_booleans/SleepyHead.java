@@ -23,6 +23,8 @@ public class SleepyHead {
 System.out.println(x);
 System.out.println(b);
 
+if (x == 1) {JOptionPane.showMessageDialog(null, "Sleep in");}
+else {JOptionPane.showMessageDialog(null, "Get up lazybones");}
         /*
          * Print “sleep in�? if it is a vacation or a weekend. If it’s a weekday,
          * print “get up lazybones!�? If it is a weekday, and we are on vacation,
