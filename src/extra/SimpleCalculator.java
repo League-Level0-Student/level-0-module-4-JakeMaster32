@@ -9,9 +9,9 @@ public class SimpleCalculator {
 		// 1. Get 2 numbers from the user and convert them to integer.
 		for (int z = 1; z > 0; z++) {
 			String x = JOptionPane.showInputDialog("Give me a number");
-			int a = Integer.parseInt(x);
+			double a = Integer.parseInt(x);
 			String y = JOptionPane.showInputDialog("Give me another number");
-			int b = Integer.parseInt(y);
+			double b = Integer.parseInt(y);
 			// 2. Customize pop-up to support add/subtract/multiply/divide operations.
 			int String;
 			int operation = JOptionPane.showOptionDialog(null, "With mathematical operation do you want to perform",
@@ -34,23 +34,23 @@ public class SimpleCalculator {
 		}
 	}
 
-	static void add(int a, int b) {
-		int c = (a + b);
+	static void add(double a, double b) {
+		double c = (a + b);
 		JOptionPane.showMessageDialog(null, "" + c);
 	}
 
-	static void subtract(int a, int b) {
-		int c = (a - b);
+	static void subtract(double a, double b) {
+		double c = (a - b);
 		JOptionPane.showMessageDialog(null, "" + c);
 	}
 
-	static void multiply(int a, int b) {
-		int c = (a * b);
+	static void multiply(double a, double b) {
+		double c = (a * b);
 		JOptionPane.showMessageDialog(null, "" + c);
 	}
 
-	static void divide(int a, int b) {
-		int c = (a / b);
+	static void divide(double a, double b) {
+		double c = (a / b);
 		JOptionPane.showMessageDialog(null, "" + c);
 	}
 }
